@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muna Designs | Luxury Dresses</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Luxury Navigation -->
+        <nav class="side-nav">
+            <div class="logo">
+                <i class="fas fa-crown"></i>
+                <span>Muna Designs</span>
+            </div>
+            <ul class="nav-links">
+                <li class="active">
+                    <i class="fas fa-spa"></i>
+                    <span>New Collection</span>
+                </li>
+                <li>
+                    <i class="fas fa-star"></i>
+                    <span>Bestsellers</span>
+                </li>
+                <li>
+                    <i class="fas fa-umbrella-beach"></i>
+                    <span>Summer '23</span>
+                </li>
+                <li>
+                    <i class="fas fa-moon"></i>
+                    <span>Evening Wear</span>
+                </li>
+                <li>
+                    <i class="fas fa-rings-wedding"></i>
+                    <span>Bridal</span>
+                </li>
+            </ul>
+            <div class="cart-preview">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count">0</span>
+                <span class="cart-text">Your Collection</span>
+            </div>
+        </nav>
+
+        <!-- Main Collection -->
+        <main class="content-area">
+            <div class="collection-header">
+                <h1>Luxury Dresses Collection</h1>
+                <p class="collection-subtitle">Handcrafted elegance for the modern woman</p>
+                <div class="collection-filters">
+                    <select>
+                        <option>All Collections</option>
+                        <option>Cocktail Dresses</option>
+                        <option>Evening Gowns</option>
+                        <option>Bridal Wear</option>
+                        <option>Casual Luxury</option>
+                    </select>
+                    <select>
+                        <option>Sort By</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Newest Arrivals</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="dress-grid">
+                <!-- Dress items will be added by JavaScript -->
+            </div>
+        </main>
+
+        <!-- Order Panel -->
+        <aside class="right-sidebar">
+            <div class="order-panel">
+                <h2><i class="fas fa-crown"></i> Your Selection</h2>
+                <div class="order-items">
+                    <!-- Order items will be added by JavaScript -->
+                </div>
+                <div class="order-summary">
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span class="subtotal">$0.00</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Shipping</span>
+                        <span>FREE</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total</span>
+                        <span class="total-amount">$0.00</span>
+                    </div>
+                    <button class="checkout-btn">Complete Your Look <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div class="customer-reviews">
+                <h3><i class="fas fa-gem"></i> Client Testimonials</h3>
+                <div class="review">
+                    <div class="reviewer">
+                        <img src="images/reviewer1.jpg" alt="Aisha K.">
+                        <div>
+                            <h4>Aisha K.</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"The craftsmanship on my Muna Designs gown was exceptional. I received countless compliments at the gala!"</p>
+                </div>
+                <div class="review">
+                    <div class="reviewer">
+                        <img src="images/reviewer2.jpg" alt="Fatima A.">
+                        <div>
+                            <h4>Fatima A.</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Wore Muna Designs to my sister's wedding and felt like royalty. The fabric drapes beautifully."</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Quick View Modal -->
+        <div class="modal-overlay">
+            <div class="quick-view-modal">
+                <button class="close-modal">&times;</button>
+                <div class="modal-content">
+                    <!-- Modal content will be added by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
